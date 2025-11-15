@@ -43,7 +43,7 @@ public:
         if (Huong == 2) newX--;
         if (Huong == 3) newY--;
 
-        // Dung Khung
+       
         if (newX <= MINX || newX >= MAXX || newY <= MINY || newY >= MAXY) {
 
             if (Huong == 0) Huong = 2;
@@ -73,4 +73,5 @@ public:
         }
     }
 };
+
 
